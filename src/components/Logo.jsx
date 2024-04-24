@@ -8,3 +8,5 @@ function Logo({width ='100px'})
         </div>
     )
 }
+
+export default Logo;
