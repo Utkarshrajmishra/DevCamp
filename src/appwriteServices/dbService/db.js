@@ -122,5 +122,5 @@ class dbService {
   }
 }
 
-const dbService = new dbService();
-export default dbService;
+const DBService = new dbService();
+export default DBService;
