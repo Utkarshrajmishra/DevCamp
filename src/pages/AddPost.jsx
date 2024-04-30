@@ -10,3 +10,5 @@ const AddPost=()=>{
         </div>
     )
 }
+
+export default AddPost

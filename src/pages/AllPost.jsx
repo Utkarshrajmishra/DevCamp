@@ -29,3 +29,4 @@ return (
   </div>
 );
 }
+export default AllPosts
