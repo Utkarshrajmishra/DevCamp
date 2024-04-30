@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const AuthLayout = ({ children, authentication = true }) => {
     const navigate=useNavigate();
-    const[loader,setLoadeer]=useState(true)
+    const[loading,setLoadeer]=useState(true)
     const authStatus=useSelector(state=>state.auth.status);
 
     useEffect(()=>{
